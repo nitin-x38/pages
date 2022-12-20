@@ -21,11 +21,7 @@ var pages = mongoose.Schema({
         required: true
     },
     component: {
-        type: "Array",
-        items: {
-            type: "String"
-        },
-        default: []
+        type: "Array"
     },
     status: {
         type: 'String',
