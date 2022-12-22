@@ -86,7 +86,7 @@ var controllers = {
                             throw new Error("Display Footer error.");
                         }
 
-                        if (dataSourceType == null && dataSourceType == undefined && dataSourceType != `INTEGRATION`) {
+                        if (dataSourceType == null || dataSourceType == undefined || dataSourceType != `INTEGRATION`) {
                             throw new Error("Data Source Type error.")
                         }
 
